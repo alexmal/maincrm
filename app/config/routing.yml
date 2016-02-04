@@ -1,0 +1,5 @@
+maincrm:
+    resource: "@MaincrmBundle/Controller/"
+    type:     annotation
+    prefix:   /
+

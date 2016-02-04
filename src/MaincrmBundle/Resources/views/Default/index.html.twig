@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    {% stylesheets '@MaincrmBundle/Resources/public/css/*' filter='cssrewrite' %}
+    <link rel="stylesheet" href="{{ asset_url }}" />
+    {% endstylesheets %}
+    <title>Старт</title>
+</head>
+<body>
+<nav>
+    <ul>
+        <li>asd asd</li>
+        <li>asd asd</li>
+        <li>asd asd</li>
+        <li>asd asd</li>
+    </ul>
+</nav>
+<h1>asd asldkas kl</h1>
+{% javascripts '@MaincrmBundle/Resources/public/js/*'%}
+<script src="{{ asset_url }}"></script>
+{% endjavascripts %}
+</body>
+</html>
